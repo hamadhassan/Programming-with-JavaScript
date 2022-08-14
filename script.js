@@ -15,3 +15,5 @@ var table ={
     leg:4,color:"brown",price:400
 }
 console.log(table);
+table.wood="special";
+console.log(table);
