@@ -34,4 +34,18 @@ function arrayBuilder(one,two,three){
 arrayBuilder(1,2,3);
 arrayBuilder(4,5,6);
 console.log(array);
-
+//Math function
+var pow=Math.pow(2,3);
+console.log(pow);
+var value=Math.random()*100;
+console.log(value);
+//functional programming
+var currencyOne=4;
+var currencyTwo=0;
+var exchangeRate=200;
+function currencyConvertor(amount,exchangeRate)  {
+    return amount*exchangeRate;
+    
+}
+currencyTwo=currencyConvertor(currencyOne,exchangeRate);
+console.log(currencyTwo);
